@@ -1,0 +1,74 @@
+.card {
+
+    max-width: 30em;
+    background: #fff;
+    border-radius: 1.1em;
+}
+
+.card__img {
+
+    position: relative;
+}
+
+.card__img > img {
+
+    width: 100%;
+    border-radius: 1.1em 1.1em 0 0;
+}
+
+.wave {
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.card__title {
+
+    padding: 1em 2em 2em 2em;
+}
+
+.card__title h2 {
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 1.6em;
+    line-height: 1.4em;
+}
+
+.card__title h3 {
+
+    margin-top: 1em;
+    font-size: 1.140em;
+    font-weight: 400;
+    line-height: 1.5em;
+    color: #677489;
+}
+
+.card__author {
+
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding: 1.7em;
+    border-top: 1px solid #F2F5F9;
+}
+
+.card__author img {
+
+    width: 3em;
+    border-radius: 50%;
+    border: 5px solid #F2F5F9;
+}
+
+.card__author h5 {
+
+    margin-top: .3em;
+    color: #677489;
+    font-weight: 500;
+}
+
+img {
+
+    width: 100%;
+}
